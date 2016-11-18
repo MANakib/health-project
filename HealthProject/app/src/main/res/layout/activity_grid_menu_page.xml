@@ -1,0 +1,83 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_weight="1" >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Head"
+            android:layout_weight="1"
+            android:onClick="headClick"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Eye"
+            android:layout_weight="1"
+            android:onClick="eyeClick" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Nose"
+            android:layout_weight="1"
+            android:onClick="noseClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_weight="1" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Ear"
+            android:layout_weight="1"
+            android:onClick="earClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Throat"
+            android:layout_weight="1"
+            android:onClick="throatClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Tooth"
+            android:layout_weight="1"
+            android:onClick="teethClick"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_weight="1" >
+        Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Skin Related"
+            android:layout_weight="1"
+            android:onClick="skinClick" />
+        Button
+            android:layout_width="126dp"
+            android:layout_height="fill_parent"
+            android:text="Torns and Cuts"
+            android:layout_weight="1"
+            android:nestedScrollingEnabled="false"
+            android:onClick="tornClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Others"
+            android:layout_weight="1"
+            android:onClick="othersClick" />
+    </LinearLayout>
+</LinearLayout>
